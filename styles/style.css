@@ -5,7 +5,15 @@ h1,h2 {
     color:#ffffff; 
     text-align:center;
     font-size: 60px;
+}
+.project-tile {
+    border: solid 2px #ffffff;
+    width:200px; 
+    height: 200px;
+    padding: 10px;
 
-
-
+}
+#projects{
+    margin-left: 500px;
+    
 }
