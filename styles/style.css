@@ -20,3 +20,9 @@ h2 {
     margin-left: 500px;
     margin-top: 3000px;
 }
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: lightgreen;
+    }
+}
