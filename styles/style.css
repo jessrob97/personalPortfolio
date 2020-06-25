@@ -1,28 +1,57 @@
 body {
-    background-color: aqua;
+    background-color: #FBECEB;
 }
 
 h1,
 h2 {
-    color: #ffffff;
+    color: #FEB249;
     text-align: center;
     font-size: 60px;
+    margin: 0px;
 }
 
 .project-tile {
-    border: solid 2px #ffffff;
+    background: #FEB249;
     width: 200px;
     height: 200px;
     padding: 10px;
+    color: #FBECEB;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
 }
 
 #projects {
-    margin-left: 500px;
-    margin-top: 3000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1000px;
+    font-size: 25px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 500px) {
     body {
         background-color: lightgreen;
     }
+}
+
+#profile-link {
+    color: #53D3D1;
+
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+}
+
+#navbar a {
+    color: #53D3D1;
 }
