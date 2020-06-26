@@ -1,5 +1,7 @@
 body {
     background-color: #FBECEB;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1,
@@ -36,6 +38,8 @@ h2 {
 
 #profile-link {
     color: #53D3D1;
+    text-decoration: none;
+
 
 }
 
@@ -50,8 +54,12 @@ h2 {
     justify-content: flex-end;
     padding-right: 30px;
 
+
 }
 
 #navbar a {
     color: #53D3D1;
+    margin: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
