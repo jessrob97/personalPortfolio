@@ -27,6 +27,7 @@ h2 {
 
 #welcome-section h2 {
     width: 100%;
+    font-size: 40px;
 }
 
 #projects {
@@ -80,6 +81,12 @@ h2 {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    ;
 
 
 }
@@ -99,6 +106,26 @@ h2 {
 #contact {
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
     justify-content: center;
+}
+
+#contact h2 {
+    width: 100%;
+}
+
+.icons {
+    width: 25px;
+
+}
+
+.contact-method {
+    color: #FEB249;
+    margin: 25px;
+}
+
+#projects h2 {
+    color: transparent;
 }
