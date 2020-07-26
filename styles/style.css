@@ -34,6 +34,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 78px;
 }
 
 #project-tile-list {
@@ -119,8 +120,8 @@ h2 {
     margin: 25px;
 }
 
-#projects h2 {
-    color: transparent;
+#planets-section {
+    padding-top: 78px;
 }
 
 #planets {
@@ -148,4 +149,8 @@ h2 {
 #planets div {
     width: 100%;
     text-align: center;
+}
+
+#people-section {
+    padding-top: 78px;
 }
