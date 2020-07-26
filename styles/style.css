@@ -1,7 +1,6 @@
 body {
     background-color: #FBECEB;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h1,
@@ -67,8 +66,6 @@ h2 {
 #profile-link {
     color: #53D3D1;
     text-decoration: none;
-
-
 }
 
 #links {
@@ -86,9 +83,6 @@ h2 {
     left: 0;
     width: 100%;
     background-color: white;
-    ;
-
-
 }
 
 #navbar a {
@@ -118,7 +112,6 @@ h2 {
 
 .icons {
     width: 25px;
-
 }
 
 .contact-method {
@@ -128,4 +121,31 @@ h2 {
 
 #projects h2 {
     color: transparent;
+}
+
+#planets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#planets li {
+    border: 3px solid purple;
+    margin: 5px;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#planets h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#planets div {
+    width: 100%;
+    text-align: center;
 }
